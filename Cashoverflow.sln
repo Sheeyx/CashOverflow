@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cashoverflow", "Cashoverflow\Cashoverflow.csproj", "{2FDD288F-378C-4504-85C1-6732D973EAC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cashoverflow.Infrastructure.Build", "Cashoverflow.Infrastructure.Build\Cashoverflow.Infrastructure.Build.csproj", "{B80B3C82-7F4A-4E4F-97B3-F3469FD7A798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{2FDD288F-378C-4504-85C1-6732D973EAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FDD288F-378C-4504-85C1-6732D973EAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FDD288F-378C-4504-85C1-6732D973EAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80B3C82-7F4A-4E4F-97B3-F3469FD7A798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80B3C82-7F4A-4E4F-97B3-F3469FD7A798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80B3C82-7F4A-4E4F-97B3-F3469FD7A798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80B3C82-7F4A-4E4F-97B3-F3469FD7A798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
