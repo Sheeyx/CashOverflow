@@ -27,7 +27,9 @@ public partial class LocationServiceTests
         
         this.storageBrokerMock.Verify(broker =>
             broker.InsertLocationAsync(inputLocation), Times.Once);
+        
         this.storageBrokerMock.VerifyNoOtherCalls();
+        this.loggingBrokerMock.VerifyNoOtherCalls();
 
     }
 }
